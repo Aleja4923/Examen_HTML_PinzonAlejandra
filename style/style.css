@@ -3,6 +3,8 @@
     src: url(../font/AmazonEmber_Lt.ttf);
 }
 
+
+
 body {
     background-image: url(/Imagenes/Fondo.png);
     background-color: rgb(255, 255, 255);
@@ -55,6 +57,7 @@ body {
     top: 3vw;
     width: 28vw;
     height: 25vw;
+    justify-content: center;
     border-radius: 2vw;
 }
 
@@ -63,6 +66,11 @@ body {
     font-size: 1.6vw;
     color: black;
     display: flex;
+    width: 80vw;
+    margin-left: 6vw;
+
+    margin-top: 2vw; 
+    font-family: "light";
     text-align: center;
 }
 
@@ -70,9 +78,11 @@ body {
     display: flex;
     font-size: 0.8vw;
     color: black;
-    position: relative;
-    left: 2vw;
-    top: 9vw;
+    position: fixed;
+    left: 6.5vw;
+    width: 50vw;
+    top: 18.5vw;
+    font-family: "light";
     text-align: center;
 }
 
