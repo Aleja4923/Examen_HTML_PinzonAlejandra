@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "light";
+    src: url(../font/AmazonEmber_Lt.ttf);
+}
+
+body {
+    background-image: url(/Imagenes/Fondo.png);
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    margin-top: -1vw;
+    margin-left: -0.1vw;
+}
+
+.menu {
+    background-color: rgb(55, 98, 192);
+    display: grid;
+    width: 90%;
+    height: -30vw;
+    grid-template-columns: 10fr 15fr 15fr 10fr 20fr 1fr
+}
+
+.letras {
+    margin-top: 3vw;
+    margin-left: 6vw;
+    font-size: 1.6vw;
+    color: white;
+    font-family: "light";
+}
+.nueva {
+    top: -0.2vw;
+    left: 2vw;
+    font-size: 1.6vw;
+    color: black;
+    display: flex;
+    font-family: "light";
+    position: relative;
+}
+.cuadro1 {
+    border: 1px solid rgb(255, 255, 255);
+    width: 10vw;
+    background-color: white;
+    height: 2vw;
+    position: relative;
+    top: 2.9vw;
+    left: 2vw;
+    border-radius: 2vw;
+
+}
+
+.cuadroblanco {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: relative;
+    left: 5vw;
+    top: 3vw;
+    width: 28vw;
+    height: 25vw;
+    border-radius: 2vw;
+}
+
+.Titulo {
+    display: flex;
+    font-size: 1.6vw;
+    color: black;
+    display: flex;
+    text-align: center;
+}
+
+.txt1 {
+    display: flex;
+    font-size: 0.8vw;
+    color: black;
+    position: relative;
+    left: 2vw;
+    top: 9vw;
+    text-align: center;
+}
+
+.logo1 {
+    display: flex;
+    margin-top: 2vw;
+    width: 2vw;
+    height: 6vw;
+}
+
+
+/*
+.menu{
+    border-bottom: +2px solid #707070;
+    padding: 0.2vw;
+    margin-left: 2.5vw;
+    margin-top: 1.5vw;
+    width: 90%;
+    font-size: 1vw;
+    font-family: "regular";
+    display: grid;
+    grid-template-columns: 5fr 20fr 5fr 20fr 5fr 20fr 20fr 5fr 20fr 5fr 20fr 4fr 4fr 4fr ;
+}
+*/
+
